@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圖片放在兩側</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0 50px;
+            box-sizing: border-box;
+        }
+        img {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <img src="image1.jpg" alt="左側圖片">
+    <img src="image2.jpg" alt="右側圖片">
+</body>
+</html>
